@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93E54051C0F92FC00A3FA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */; };
+		A93E54071C0F92FC00A3FA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54061C0F92FC00A3FA95 /* ViewController.swift */; };
+		A93E540A1C0F92FC00A3FA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E54081C0F92FC00A3FA95 /* Main.storyboard */; };
+		A93E540D1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93E540B1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld */; };
+		A93E540F1C0F92FC00A3FA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */; };
+		A93E54121C0F92FC00A3FA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E54101C0F92FC00A3FA95 /* LaunchScreen.storyboard */; };
+		A93E541D1C0F92FC00A3FA95 /* TextUnsendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E541C1C0F92FC00A3FA95 /* TextUnsendTests.swift */; };
+		A93E54281C0F92FC00A3FA95 /* TextUnsendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93E54191C0F92FC00A3FA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93E53F91C0F92FC00A3FA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93E54001C0F92FC00A3FA95;
+			remoteInfo = TextUnsend;
+		};
+		A93E54241C0F92FC00A3FA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93E53F91C0F92FC00A3FA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93E54001C0F92FC00A3FA95;
+			remoteInfo = TextUnsend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93E54011C0F92FC00A3FA95 /* TextUnsend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextUnsend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A93E54061C0F92FC00A3FA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A93E54091C0F92FC00A3FA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93E540C1C0F92FC00A3FA95 /* TextUnsend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextUnsend.xcdatamodel; sourceTree = "<group>"; };
+		A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93E54111C0F92FC00A3FA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93E54131C0F92FC00A3FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93E54181C0F92FC00A3FA95 /* TextUnsendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextUnsendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93E541C1C0F92FC00A3FA95 /* TextUnsendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUnsendTests.swift; sourceTree = "<group>"; };
+		A93E541E1C0F92FC00A3FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93E54231C0F92FC00A3FA95 /* TextUnsendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextUnsendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUnsendUITests.swift; sourceTree = "<group>"; };
+		A93E54291C0F92FC00A3FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93E53FE1C0F92FC00A3FA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E54151C0F92FC00A3FA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E54201C0F92FC00A3FA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93E53F81C0F92FC00A3FA95 = {
+			isa = PBXGroup;
+			children = (
+				A93E54031C0F92FC00A3FA95 /* TextUnsend */,
+				A93E541B1C0F92FC00A3FA95 /* TextUnsendTests */,
+				A93E54261C0F92FC00A3FA95 /* TextUnsendUITests */,
+				A93E54021C0F92FC00A3FA95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93E54021C0F92FC00A3FA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93E54011C0F92FC00A3FA95 /* TextUnsend.app */,
+				A93E54181C0F92FC00A3FA95 /* TextUnsendTests.xctest */,
+				A93E54231C0F92FC00A3FA95 /* TextUnsendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93E54031C0F92FC00A3FA95 /* TextUnsend */ = {
+			isa = PBXGroup;
+			children = (
+				A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */,
+				A93E54061C0F92FC00A3FA95 /* ViewController.swift */,
+				A93E54081C0F92FC00A3FA95 /* Main.storyboard */,
+				A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */,
+				A93E54101C0F92FC00A3FA95 /* LaunchScreen.storyboard */,
+				A93E54131C0F92FC00A3FA95 /* Info.plist */,
+				A93E540B1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld */,
+			);
+			path = TextUnsend;
+			sourceTree = "<group>";
+		};
+		A93E541B1C0F92FC00A3FA95 /* TextUnsendTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93E541C1C0F92FC00A3FA95 /* TextUnsendTests.swift */,
+				A93E541E1C0F92FC00A3FA95 /* Info.plist */,
+			);
+			path = TextUnsendTests;
+			sourceTree = "<group>";
+		};
+		A93E54261C0F92FC00A3FA95 /* TextUnsendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */,
+				A93E54291C0F92FC00A3FA95 /* Info.plist */,
+			);
+			path = TextUnsendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93E54001C0F92FC00A3FA95 /* TextUnsend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93E542C1C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsend" */;
+			buildPhases = (
+				A93E53FD1C0F92FC00A3FA95 /* Sources */,
+				A93E53FE1C0F92FC00A3FA95 /* Frameworks */,
+				A93E53FF1C0F92FC00A3FA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextUnsend;
+			productName = TextUnsend;
+			productReference = A93E54011C0F92FC00A3FA95 /* TextUnsend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93E54171C0F92FC00A3FA95 /* TextUnsendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93E542F1C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendTests" */;
+			buildPhases = (
+				A93E54141C0F92FC00A3FA95 /* Sources */,
+				A93E54151C0F92FC00A3FA95 /* Frameworks */,
+				A93E54161C0F92FC00A3FA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93E541A1C0F92FC00A3FA95 /* PBXTargetDependency */,
+			);
+			name = TextUnsendTests;
+			productName = TextUnsendTests;
+			productReference = A93E54181C0F92FC00A3FA95 /* TextUnsendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93E54221C0F92FC00A3FA95 /* TextUnsendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93E54321C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendUITests" */;
+			buildPhases = (
+				A93E541F1C0F92FC00A3FA95 /* Sources */,
+				A93E54201C0F92FC00A3FA95 /* Frameworks */,
+				A93E54211C0F92FC00A3FA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93E54251C0F92FC00A3FA95 /* PBXTargetDependency */,
+			);
+			name = TextUnsendUITests;
+			productName = TextUnsendUITests;
+			productReference = A93E54231C0F92FC00A3FA95 /* TextUnsendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93E53F91C0F92FC00A3FA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FreeApps;
+				TargetAttributes = {
+					A93E54001C0F92FC00A3FA95 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A93E54171C0F92FC00A3FA95 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A93E54001C0F92FC00A3FA95;
+					};
+					A93E54221C0F92FC00A3FA95 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A93E54001C0F92FC00A3FA95;
+					};
+				};
+			};
+			buildConfigurationList = A93E53FC1C0F92FC00A3FA95 /* Build configuration list for PBXProject "TextUnsend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93E53F81C0F92FC00A3FA95;
+			productRefGroup = A93E54021C0F92FC00A3FA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93E54001C0F92FC00A3FA95 /* TextUnsend */,
+				A93E54171C0F92FC00A3FA95 /* TextUnsendTests */,
+				A93E54221C0F92FC00A3FA95 /* TextUnsendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93E53FF1C0F92FC00A3FA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93E54121C0F92FC00A3FA95 /* LaunchScreen.storyboard in Resources */,
+				A93E540F1C0F92FC00A3FA95 /* Assets.xcassets in Resources */,
+				A93E540A1C0F92FC00A3FA95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E54161C0F92FC00A3FA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E54211C0F92FC00A3FA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93E53FD1C0F92FC00A3FA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93E54071C0F92FC00A3FA95 /* ViewController.swift in Sources */,
+				A93E54051C0F92FC00A3FA95 /* AppDelegate.swift in Sources */,
+				A93E540D1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E54141C0F92FC00A3FA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93E541D1C0F92FC00A3FA95 /* TextUnsendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93E541F1C0F92FC00A3FA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93E54281C0F92FC00A3FA95 /* TextUnsendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93E541A1C0F92FC00A3FA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93E54001C0F92FC00A3FA95 /* TextUnsend */;
+			targetProxy = A93E54191C0F92FC00A3FA95 /* PBXContainerItemProxy */;
+		};
+		A93E54251C0F92FC00A3FA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93E54001C0F92FC00A3FA95 /* TextUnsend */;
+			targetProxy = A93E54241C0F92FC00A3FA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93E54081C0F92FC00A3FA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93E54091C0F92FC00A3FA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93E54101C0F92FC00A3FA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93E54111C0F92FC00A3FA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93E542A1C0F92FC00A3FA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93E542B1C0F92FC00A3FA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93E542D1C0F92FC00A3FA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextUnsend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A93E542E1C0F92FC00A3FA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextUnsend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A93E54301C0F92FC00A3FA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextUnsendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextUnsend.app/TextUnsend";
+			};
+			name = Debug;
+		};
+		A93E54311C0F92FC00A3FA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextUnsendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextUnsend.app/TextUnsend";
+			};
+			name = Release;
+		};
+		A93E54331C0F92FC00A3FA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextUnsendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextUnsend;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A93E54341C0F92FC00A3FA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextUnsendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FreeApps.TextUnsendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextUnsend;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93E53FC1C0F92FC00A3FA95 /* Build configuration list for PBXProject "TextUnsend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93E542A1C0F92FC00A3FA95 /* Debug */,
+				A93E542B1C0F92FC00A3FA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93E542C1C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93E542D1C0F92FC00A3FA95 /* Debug */,
+				A93E542E1C0F92FC00A3FA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93E542F1C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93E54301C0F92FC00A3FA95 /* Debug */,
+				A93E54311C0F92FC00A3FA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93E54321C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93E54331C0F92FC00A3FA95 /* Debug */,
+				A93E54341C0F92FC00A3FA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A93E540B1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A93E540C1C0F92FC00A3FA95 /* TextUnsend.xcdatamodel */,
+			);
+			currentVersion = A93E540C1C0F92FC00A3FA95 /* TextUnsend.xcdatamodel */;
+			path = TextUnsend.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A93E53F91C0F92FC00A3FA95 /* Project object */;
+}
