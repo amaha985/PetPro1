@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A93E54051C0F92FC00A3FA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */; };
-		A93E54071C0F92FC00A3FA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54061C0F92FC00A3FA95 /* ViewController.swift */; };
 		A93E540A1C0F92FC00A3FA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E54081C0F92FC00A3FA95 /* Main.storyboard */; };
 		A93E540D1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93E540B1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld */; };
 		A93E540F1C0F92FC00A3FA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */; };
 		A93E54121C0F92FC00A3FA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E54101C0F92FC00A3FA95 /* LaunchScreen.storyboard */; };
 		A93E541D1C0F92FC00A3FA95 /* TextUnsendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E541C1C0F92FC00A3FA95 /* TextUnsendTests.swift */; };
 		A93E54281C0F92FC00A3FA95 /* TextUnsendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */; };
+		A93F3BC91C1EB8A900F0920D /* ContactedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */; };
+		A93F3BCB1C1EBDC100F0920D /* TextedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		A93E54011C0F92FC00A3FA95 /* TextUnsend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextUnsend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A93E54061C0F92FC00A3FA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A93E54091C0F92FC00A3FA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A93E540C1C0F92FC00A3FA95 /* TextUnsend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextUnsend.xcdatamodel; sourceTree = "<group>"; };
 		A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		A93E54231C0F92FC00A3FA95 /* TextUnsendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextUnsendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUnsendUITests.swift; sourceTree = "<group>"; };
 		A93E54291C0F92FC00A3FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactedListViewController.swift; sourceTree = "<group>"; };
+		A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextedListViewController.swift; path = TextUnsend/TextedListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,8 @@
 		A93E53F81C0F92FC00A3FA95 = {
 			isa = PBXGroup;
 			children = (
+				A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */,
+				A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */,
 				A93E54031C0F92FC00A3FA95 /* TextUnsend */,
 				A93E541B1C0F92FC00A3FA95 /* TextUnsendTests */,
 				A93E54261C0F92FC00A3FA95 /* TextUnsendUITests */,
@@ -100,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				A93E54041C0F92FC00A3FA95 /* AppDelegate.swift */,
-				A93E54061C0F92FC00A3FA95 /* ViewController.swift */,
 				A93E54081C0F92FC00A3FA95 /* Main.storyboard */,
 				A93E540E1C0F92FC00A3FA95 /* Assets.xcassets */,
 				A93E54101C0F92FC00A3FA95 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93E54071C0F92FC00A3FA95 /* ViewController.swift in Sources */,
+				A93F3BC91C1EB8A900F0920D /* ContactedListViewController.swift in Sources */,
 				A93E54051C0F92FC00A3FA95 /* AppDelegate.swift in Sources */,
+				A93F3BCB1C1EBDC100F0920D /* TextedListViewController.swift in Sources */,
 				A93E540D1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				A93E542E1C0F92FC00A3FA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93E542F1C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				A93E54311C0F92FC00A3FA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93E54321C0F92FC00A3FA95 /* Build configuration list for PBXNativeTarget "TextUnsendUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				A93E54341C0F92FC00A3FA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
