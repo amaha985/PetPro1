@@ -41,7 +41,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uw5-SJ-TsO"/>
+                    <navigationItem key="navigationItem" id="uw5-SJ-TsO">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="3sM-ZC-GeV">
+                            <connections>
+                                <action selector="contactPicked:" destination="BYZ-38-t0r" id="oF3-zR-Gdl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="contactedListTable" destination="hnp-OW-uRG" id="PgZ-DP-z4g"/>
                     </connections>
