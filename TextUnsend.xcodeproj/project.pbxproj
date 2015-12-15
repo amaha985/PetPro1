@@ -16,6 +16,8 @@
 		A93E54281C0F92FC00A3FA95 /* TextUnsendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E54271C0F92FC00A3FA95 /* TextUnsendUITests.swift */; };
 		A93F3BC91C1EB8A900F0920D /* ContactedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */; };
 		A93F3BCB1C1EBDC100F0920D /* TextedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */; };
+		A93F3BCE1C1F764F00F0920D /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BCC1C1F764F00F0920D /* Contacts+CoreDataProperties.swift */; };
+		A93F3BCF1C1F764F00F0920D /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F3BCD1C1F764F00F0920D /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A93E54291C0F92FC00A3FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactedListViewController.swift; sourceTree = "<group>"; };
 		A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextedListViewController.swift; path = TextUnsend/TextedListViewController.swift; sourceTree = "<group>"; };
+		A93F3BCC1C1F764F00F0920D /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A93F3BCD1C1F764F00F0920D /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		A93E53F81C0F92FC00A3FA95 = {
 			isa = PBXGroup;
 			children = (
+				A93F3BCC1C1F764F00F0920D /* Contacts+CoreDataProperties.swift */,
+				A93F3BCD1C1F764F00F0920D /* Contacts.swift */,
 				A93F3BC81C1EB8A900F0920D /* ContactedListViewController.swift */,
 				A93F3BCA1C1EBDC100F0920D /* TextedListViewController.swift */,
 				A93E54031C0F92FC00A3FA95 /* TextUnsend */,
@@ -264,7 +270,9 @@
 			files = (
 				A93F3BC91C1EB8A900F0920D /* ContactedListViewController.swift in Sources */,
 				A93E54051C0F92FC00A3FA95 /* AppDelegate.swift in Sources */,
+				A93F3BCF1C1F764F00F0920D /* Contacts.swift in Sources */,
 				A93F3BCB1C1EBDC100F0920D /* TextedListViewController.swift in Sources */,
+				A93F3BCE1C1F764F00F0920D /* Contacts+CoreDataProperties.swift in Sources */,
 				A93E540D1C0F92FC00A3FA95 /* TextUnsend.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

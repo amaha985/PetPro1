@@ -10,13 +10,16 @@ import UIKit
 
 class TextedListViewController: UIViewController {
     
-    var nameandPhone: String?
+    var nameandPhone: (firstLast: String?, phone: String?)
     @IBOutlet weak var textedListTable: UITableView!
 
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = nameandPhone.firstLast ?? nameandPhone.phone ?? ""
+        
 
         // Do any additional setup after loading the view.
     }
@@ -48,7 +51,8 @@ class TextedListViewController: UIViewController {
         
         
         
-        cell.textLabel?.text = nameandPhone ?? "meahh!"
+        cell.textLabel?.text = nameandPhone.firstLast ?? "mehh"
+        cell.detailTextLabel?.text = nameandPhone.phone ?? "ehh"
         
         return cell
         
