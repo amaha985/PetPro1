@@ -148,8 +148,8 @@ class ContactedListViewController: UIViewController, CNContactPickerDelegate, NS
         if let nc = segue.destinationViewController as? TextedListViewController{
             
             
-            nc.nameandPhone = (ContactEntry.fullName!,ContactEntry.phoneNumber!)
-            
+           // nc.nameandPhone = (ContactEntry.fullName!,ContactEntry.phoneNumber!)
+            nc.contact = ContactEntry
             
             }
         }
